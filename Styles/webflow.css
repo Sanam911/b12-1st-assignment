@@ -21,9 +21,8 @@
     padding: 10px;
 }
 
-.primary-hedding {
+.primary-heading {
     font-weight: bold;
-    font-size: 65px;
     color: #252432;
 }
 
@@ -54,5 +53,41 @@ nav {
     text-align: center;
     width: 900px;
     height: 230px;
+}
+.banner-text{
+    font-size: 65px;
+}
+/* main */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+/* action section */
+.action-sec{
+    display: flex;
+    /* max-width: 1140px; */
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    gap: 100px;
+    padding: 100px;
+    align-items: center;
+    height: 330px;
+}
+.action-content{
+    width: 500px;
+    
+    text-align: left;
+}
+.action-h{
+    font-size: 42px;
+}
+.action-p{
+    color:#25243280;
+    font-size: 24px;
+}
+.action-img{
+    border-radius: 48px;
+    width: 400px;
+    height: 320px;
 }
