@@ -11,6 +11,10 @@
 
 }
 
+.body{
+    background-color: #d6dded50;
+}
+
 /* shared style */
 .btn-primary {
     font-weight: bold;
@@ -19,6 +23,12 @@
     border: none;
     border-radius: 5px;
     padding: 10px;
+
+}
+.btn-primary:hover{
+    background-color: #4d47ff2d;
+    font-size: medium;
+    color:#252432
 }
 
 .primary-heading {
@@ -104,14 +114,46 @@ nav {
 
 .big-text-sec{
     display: flex;
-    gap: 0 150px;
-    justify-content: center;
+    justify-content:space-around;
 }
 .big-text{
     font-size: 80px;
     color: #4E47FF;
+    margin-bottom: 0px;
 }
 .small-text{
     color: #25243280;
     font-size: 20px;
+    margin-top: 0px;
 }
+
+/* optional section */
+
+
+/* get in touch section */
+.get-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+    gap: 110px;
+    
+}
+.get-sec-collumn{
+    width: 50%;
+}
+
+.get-heading{
+    font-size: 90px;
+}
+input, textarea, input[type="button"]{
+    display:block;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: none;
+       
+}
+
+
