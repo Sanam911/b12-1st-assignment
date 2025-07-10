@@ -26,18 +26,20 @@
     color: #252432;
 }
 
+
 /* navbar styles */
 
 .inter-navfont {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
     font-style: normal;
-    color: #4E47FF;
+    
 }
 
 .nav-title {
     font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
 }
 
 nav {
@@ -66,17 +68,14 @@ nav {
 /* action section */
 .action-sec{
     display: flex;
-    /* max-width: 1140px; */
     justify-content: space-between;
-    /* margin: 0 auto; */
     gap: 100px;
     padding: 100px;
     align-items: center;
     height: 330px;
 }
 .action-content{
-    width: 500px;
-    
+    width: 500px;   
     text-align: left;
 }
 .action-h{
@@ -90,4 +89,29 @@ nav {
     border-radius: 48px;
     width: 400px;
     height: 320px;
+}
+
+/* productive user section */
+.pro-user-sec{
+    background-color: #4d47ff2d;
+    text-align: center;
+    border-radius: 25px;
+    padding: 30px;
+}
+.pro-heading{
+    font-size: 38px;
+}
+
+.big-text-sec{
+    display: flex;
+    gap: 0 150px;
+    justify-content: center;
+}
+.big-text{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.small-text{
+    color: #25243280;
+    font-size: 20px;
 }
