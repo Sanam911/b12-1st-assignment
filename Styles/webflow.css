@@ -152,8 +152,54 @@ input, textarea, input[type="button"]{
     width: 300px;
     margin-bottom: 20px;
     margin-top: 10px;
-    border: none;
-       
+    border: none;    
 }
 
+.get-btn{
+    width: 340px;
+    padding: 15px;
+    border-radius: 10px;   
+}
 
+/* footer section */
+footer{
+    background-color: white;
+    margin: 0;
+    height: 300px;
+}
+.footer-sec{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    height: 220px;
+    width: 530px;
+    
+    
+}
+.footer-head{
+    font-size: 80px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0px;
+    padding-top: 55px;
+}
+.footer-para{
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #25243280;
+    font-size: 15px;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+li a:hover{
+    color: #252432;
+    cursor: pointer;
+}
